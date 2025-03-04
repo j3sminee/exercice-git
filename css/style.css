@@ -17,6 +17,7 @@ img{
     object-fit: cover;
     object-position: center;
     transition: all 0.5s;
+    border-radius: 7px;
 
     &:active{
         scale:1.5;
