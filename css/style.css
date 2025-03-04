@@ -16,10 +16,10 @@ img{
     height: 150px;
     object-fit: cover;
     object-position: center;
-    transition: all 0.5s;
+    transition: all ease 0.5s;
     border-radius: 7px;
 
-    &:active{
+    &.active{
         scale:1.5;
         box-shadow: 0px 0px 10px #000;
     }
